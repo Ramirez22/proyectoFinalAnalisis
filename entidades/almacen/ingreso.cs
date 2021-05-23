@@ -1,4 +1,5 @@
 ﻿using entidades.usuarios;
+using entidades.ventas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -32,6 +33,6 @@ namespace entidades.almacen
 
         public List<usuario> usuarios { get; set; }
 
-        public List<estado> estados { get; set; }
+        public List<estados> estados { get; set; }
     }
 }
