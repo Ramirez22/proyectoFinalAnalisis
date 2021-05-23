@@ -16,4 +16,8 @@
     <ProjectReference Include="..\entidades\entidades.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MapeoEntidades\usuarios\" />
+  </ItemGroup>
+
 </Project>

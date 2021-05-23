@@ -18,6 +18,11 @@ namespace datos
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new categoriaM());
             modelBuilder.ApplyConfiguration(new articuloM());
+            modelBuilder.ApplyConfiguration(new IngresoM());
+            modelBuilder.ApplyConfiguration(new detalleingreso());
+
+
+
         }
 
     }
