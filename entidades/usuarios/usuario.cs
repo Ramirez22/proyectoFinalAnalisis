@@ -15,6 +15,8 @@ namespace entidades.usuarios
 
         [Required]
         [StringLength(100, MinimumLength = 5, ErrorMessage = "Apellido tiene que tener minimo 5 caracteres")]
+        public string apellido { get; set; }
+
         public string tipoDocumento { get; set; }
 
        
@@ -46,7 +48,7 @@ namespace entidades.usuarios
 
 
         [Required]
-        public byte password_hast { get; set; }
+        public byte password_hash { get; set; }
 
         [Required]
         public byte password_sal { get; set; }
