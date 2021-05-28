@@ -43,6 +43,7 @@ namespace entidades.usuarios
         [StringLength(50, MinimumLength = 10, ErrorMessage = "email que tener minimo 10 caracteres")]
         public string email { get; set; }
 
+        public bool estado { get; set; }
         public List<persona> personas { get; set; }
 
     }

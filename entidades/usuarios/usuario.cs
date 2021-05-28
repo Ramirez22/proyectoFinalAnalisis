@@ -53,6 +53,7 @@ namespace entidades.usuarios
         [Required]
         public byte password_sal { get; set; }
 
+        public bool condicion { get; set; }
 
         public List<rol> roles { get; set; }
 

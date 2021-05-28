@@ -13,6 +13,8 @@ namespace entidades.almacen
         [Required]
         [StringLength(250)]
         public string descripcion { get; set; }
-        
+
+        public bool condicion { get; set; }
+
     }
 }

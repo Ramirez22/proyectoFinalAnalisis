@@ -17,6 +17,8 @@ namespace entidades.usuarios
         [StringLength(100, MinimumLength = 5, ErrorMessage = "La descripcion  tiene que tener minimo 5 caracteres")]
         public string descripcion { get; set; }
 
+        public bool condicion { get; set; }
+
         public List<condicion> condicion { get; set; }
 
     

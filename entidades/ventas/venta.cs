@@ -24,6 +24,8 @@ namespace entidades.ventas
 
         public decimal total { get; set; }
 
+        public string estado { get; set; }
+
         public List<persona> Clientes { get; set; }
 
         public List<usuario>Usuarios { get; set; }
