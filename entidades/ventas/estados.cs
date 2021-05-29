@@ -8,5 +8,7 @@ namespace entidades.ventas
     {
         public int idestado { get; set; }
         public string descripcion { get; set; }
+
+
     }
 }
