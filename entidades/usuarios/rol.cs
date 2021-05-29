@@ -19,7 +19,7 @@ namespace entidades.usuarios
 
         public bool condicion { get; set; }
 
-        public List<condicion> condicion { get; set; }
+        public List<condicion> condicions{ get; set; }
 
     
     }

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entidades", "entidades\entidades.csproj", "{0DA5F9B5-AADC-4B3E-90A5-E538035218A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "entidades", "entidades\entidades.csproj", "{0DA5F9B5-AADC-4B3E-90A5-E538035218A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datos", "datos\datos.csproj", "{42A07B76-A4D9-490F-8DBB-EA9012642FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "datos", "datos\datos.csproj", "{42A07B76-A4D9-490F-8DBB-EA9012642FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{C96ABD4E-C2F5-46D5-B30E-85AC2C9AD45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web", "web\web.csproj", "{C96ABD4E-C2F5-46D5-B30E-85AC2C9AD45F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

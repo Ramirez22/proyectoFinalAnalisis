@@ -101,7 +101,7 @@ namespace analisis.Web.Controllers
 
         private bool Tipo_PersonaExists(int id)
         {
-            return _context.tipopersonas.Any(e => e.idTipo_Persona == id);
+            return _context.tipopersonas.Any(e => e.idpersona == id);
         }
     }
 }
